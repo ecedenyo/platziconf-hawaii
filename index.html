@@ -15,32 +15,30 @@
       
     </style>
   </head>
-  <body>
-    <div class="container">
-      
-    </div>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+
     <!-- Header -->
-    <header id="header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header id="header" class="sticky-top">
+      <nav id="header-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="assets/images/platzi-logo.png" alt="Platzi logo"> Conf Hawaii</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">La conferencia <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="#main">La conferencia <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#speakers">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link" href="#place-time" data-offset="57">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Conviértete en orador</a>
+                <a class="nav-link" href="#conviertete-en-orador">Conviértete en orador</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-platzi" href="#">Comprar de tickets</a>
@@ -147,7 +145,7 @@
     <!-- /Speakers -->
 
     <!-- Place n Time -->
-    <section id="place-time">
+    <section id="place-time" data-offset="57">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-lg-6 pl-0 pr-0"><img src="assets/images/honolulu.jpg" alt="Honolulu"></div>
